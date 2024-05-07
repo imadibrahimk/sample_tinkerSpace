@@ -1,0 +1,228 @@
+* {
+  margin: 0px;
+}
+
+h1 {
+  font-family: Instrument Serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  padding-bottom: 32px;
+
+}
+
+h2 {
+  font-family: Clash Display;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  padding-bottom: 16px;
+
+
+}
+
+h3 {
+  font-family: Clash Display;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  padding: 0 0 10px 6px;
+
+
+}
+
+h5 {
+  font-family: Clash Display;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 10.8px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  padding-bottom: 392px;
+  color: #A3A3A3;
+
+}
+
+.TV_fixed {
+  width: 1280px;
+  height: 720px;
+  /* background: #73f084; */
+  display: flex;
+  padding: 6px;
+
+
+}
+
+.right_div {
+  /* position: fixed; */
+  width: 246px;
+  height: 720px;
+  /* background: #e28282; */
+  /* margin: 32px 24px 32px 24px; */
+}
+
+.right_div_inside {
+  margin: 32px 24px 32px 24px;
+  width: 198px;
+  height: 133px;
+  gap: 16px;
+  opacity: 0px;
+
+
+
+}
+
+/* .right_div_inside h1 {} */
+
+.right_div_inside1 {
+  width: 198px;
+  height: 31px;
+  /* gap: 16px; */
+
+}
+
+.right_div_inside1 p {
+  padding-top: 16px;
+  font-family: Inter;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 9.6px;
+  /* letter-spacing: -0.01em; */
+  text-align: left;
+  color: #575757;
+
+}
+
+.right_div_inside1 span {
+  font-family: Inter;
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 9.6px;
+  /* letter-spacing: -0.1em; */
+  text-align: left;
+
+}
+
+
+
+
+.scan_box {
+  width: 198px;
+  height: 105px;
+  /* gap: 16px; */
+  border-radius: 11px;
+  /* opacity: 0px; */
+  display: flex;
+  border-width: 0.6px;
+  border-color: #DEDEDE;
+  border-style: solid;
+
+}
+
+.scan_box img {
+  width: 73px;
+  height: 73px;
+  /* pa */
+  padding: 16px 16px 16px 16px;
+
+
+}
+
+/* .img_div {
+  position: relative;;
+} */
+.mentor_tag {
+  width: 28px;
+  height: 6px;
+  padding: 4px 8px 4px 8px;
+  /* gap: 10px; */
+  border-radius: 14px;
+  /* background: #e6ea0a; */
+  background: radial-gradient(circle at center, #FFF6A5 0%, #FFD43B 100%);
+
+  font-family: Clash Display;
+  font-size: 6px;
+  font-weight: 600;
+  line-height: 5.4px;
+  position: absolute;
+  margin: 109px -57px;
+
+
+}
+
+.scan_box1 {
+  width: 77px;
+  height: 73px;
+}
+
+.scan_box1 p {
+  font-family: Clash Display;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  padding: 16px 0 7px 0;
+
+}
+
+.left_div {
+  width: 1022px;
+  height: 720px;
+  /* background: #ef8ee5; */
+  /* display: flex; */
+
+}
+
+.card_box {
+  width: 146px;
+  height: 177px;
+  padding: 2.5px 0px 0px 0px;
+  
+  border-width: 0.6px;
+  border-color: #EBEBEB;
+  border-style: solid;
+  
+  /* gap: 16px; */
+  /* border: 0.5px 0px 0px 0px; */
+  /* opacity: 0px; */
+  /* background: #e87474; */
+}
+
+.card_box img {
+  width: 134px;
+  height: 110px;
+  padding: 6px 6px 16px 6px;
+}
+
+.name_text {
+  width: 134px;
+  height: 39px;
+  /* justify: space-between; */
+  /* padding: 0 0 0 6px; */
+
+}
+
+.name_text p {
+  font-family: General Sans;
+  font-size: 6px;
+  font-weight: 600;
+  line-height: 5.4px;
+  /* letter-spacing: -0.01em; */
+  text-align: left;
+  padding-left: 6px;
+  color: #FD9800;
+  ;
+
+}
+
+.card_row_1 {
+  display: flex;
+}
